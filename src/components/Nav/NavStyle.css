@@ -9,7 +9,12 @@
 a {
     text-decoration: none;
     color: #F8F8F8;
+    transition: ease-in 0.3s;
     
+}
+a:hover {
+    font-size: 18px;
+    color: #000133;
 }
 
 .container {
@@ -40,8 +45,8 @@ a {
     gap: 20px;
     font-weight: 700;
     cursor: pointer;
-    
 }
+
 
 @media(max-width: 680px) {
 
