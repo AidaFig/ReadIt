@@ -35,9 +35,9 @@ export const Sobre = () => {
             <div className="social-media">
                 <h3>Siga-me nas redes sociais:</h3>
                 <div className="icons-medias">
-                    <img src="../assets/icons/instagram (1).png" alt="instagram" />
-                    <img src="../assets/icons/linkedin (1).png" alt="linkedin" />
-                    <img src="../assets/icons/github (2).png" alt="github" />
+                    <img className="icon" src="../assets/icons/instagram (1).png" alt="instagram" />
+                    <img className="icon" src="../assets/icons/linkedin (1).png" alt="linkedin" />
+                    <img className="icon" src="../assets/icons/github (2).png" alt="github" />
                 </div>
             </div>
         <Footer />
