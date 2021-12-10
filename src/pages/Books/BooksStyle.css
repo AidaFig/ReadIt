@@ -16,6 +16,7 @@
 .gender-box {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     padding: 50px;
     background-color: #FFFFFF;
@@ -23,6 +24,7 @@
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.08);
     cursor: pointer;
 }
+
 
 .gender-icon {
     width: 80px;
@@ -32,6 +34,7 @@
 .gender-name {
     font-size: 18px;
     font-weight: 500;
+    text-align: center;
 }
 
 @media(max-width: 680px) {
@@ -39,5 +42,15 @@
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
+    }
+
+    .gender-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .gender-name {
+        font-size: 16px;
+        font-weight: 600;
     }
 }
