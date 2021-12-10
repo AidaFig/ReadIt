@@ -20,14 +20,14 @@ export const Sobre = () => {
                 <h1>Sobre o Projeto</h1>
             <div data-aos="fade-down" className="sobre-box">
                 <p>
-                    O Read It é uma plataforma que disponibiliza PDF's de livros gratuitos, os quais você pode ter acesso através de qualquer dispositivo que possua conexão com a internet. E, o melhor, você pode realizar a sua leitura onde estiver. Não tem desculpa para não manter as leituras em dia. READ IT!
+                    O <strong>Read It</strong> é uma plataforma que disponibiliza PDF's de livros gratuitos, os quais você pode ter acesso através de qualquer dispositivo que possua conexão com a internet. E, o melhor, você pode realizar a sua leitura onde estiver. Não tem desculpa para não manter as leituras em dia. READ IT!
                 </p>
                 <img src="../assets/images/information.png" alt="caixinhas de conversa" />
             </div>
                 <h1>Como Funciona?</h1>
             <div data-aos="fade-down" className="uso-box">
                 <img src="../assets/images/settings.png" alt="Engrenagens" />
-                <p>Vamos Começar! Clicando em "Livros" você se depara com várias opções de gêneros literários na tela. Escolha o de sua preferência clicando nele e você terá acesso aos livros disponíveis neste gênero. Agora, é so selecionar o livro que deseja e começar a leitura.
+                <p>Vamos Começar! Clicando em <strong>Livros</strong> você se depara com várias opções de gêneros literários na tela. Escolha o de sua preferência clicando nele e você terá acesso aos livros disponíveis neste gênero. Agora, é so selecionar o livro que deseja e começar a leitura.
                 </p>
             </div>
 
