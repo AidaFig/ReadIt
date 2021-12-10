@@ -15,7 +15,10 @@ export const Sobre = () => {
     return (
         <>
         <Nav />
-        <Header />
+        <Header img="../assets/images/img-header.svg" alt="Moça lendo um livro">Oferecendo oportunidades de leitura online a quem não vive sem um livrinho. Não importa onde, como ou quando, você pode abrir o seu livro e ler.
+        </Header>
+
+        
         <section className="sobre-container">
                 <h1>Sobre o Projeto</h1>
             <div data-aos="fade-down" className="sobre-box">
