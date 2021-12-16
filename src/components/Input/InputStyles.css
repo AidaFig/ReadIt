@@ -1,0 +1,30 @@
+
+.input-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 50px 0 0;
+}
+.input {
+    border: 1px solid #BEBEBE;
+    border-radius: 8px;
+    height: 42px;
+    width: 350px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+
+}
+
+.input {
+    padding-left: 20px;
+}
+.btn {
+    position: absolute;
+    bottom: 10px;
+    left: 1350px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
