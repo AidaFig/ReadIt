@@ -1,0 +1,23 @@
+.arrow-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.arrow-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media(max-width: 680px) {
+
+    .arrow-text {
+        display: none;
+    }
+}
