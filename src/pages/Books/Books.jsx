@@ -18,7 +18,7 @@ const genders = [
         id: 2,
         icon: "../assets/icons/biografia.png",
         title: "Biografia",
-        path: ""
+        path: "/biografia"
     }, 
     {
         id: 3,
@@ -66,20 +66,20 @@ export const Books = () => {
         <h1 className ="gender-title">Gêneros</h1>
         <div className="gender-container">
         {genders.map(gender =>
-            <Link to={gender.path}>
                 <div key={gender.id} 
                     className="gender-box" 
                     data-aos="fade-down"
                 >
                     
+            <Link to={gender.path}>
                 <img 
                     src={gender.icon} 
                     alt={gender.title} 
                     className="gender-icon"
                 />
+            </Link>
                     <p className="gender-name">{gender.title}</p>
                 </div>
-            </Link>
         )}
         </div>
         <Footer />
