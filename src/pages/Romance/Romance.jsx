@@ -5,6 +5,8 @@ import axios from "axios";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import "./Romance.css"
+import { Footer } from "../../components/Footer/Footer";
+import { Arrow } from "../../components/Arrow/Arrow";
 
 export const Romance = () => {
 
@@ -39,15 +41,18 @@ useEffect(() =>{
         <Nav />
         <Input onChange={e => {setBusca(e.target.value)}} />
 
-        <h1 className="films-gender">Romance</h1>
+        <h1 className="books-gender">Romance</h1>
+        <Arrow />
         <div className="cards-container" >
             {filterBooks.map(item =>
             <div className="cards" data-aos="fade-down">
-                <img src={item.photo} alt={item.name} className="img-films"/>
-                <p className="title-films" key={item.id}>{item.name}</p>
+                <img src={item.photo} alt={item.name} className="img-books"/>
+                <p className="title-books" key={item.id}>{item.name}</p>
             </div>
             )}
         </div>
+
+        <Footer />
     </>
     )
 }

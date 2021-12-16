@@ -8,12 +8,14 @@
     text-align: center;
 }
 
-.films-gender {
+.books-gender {
     margin: 40px 0;
     text-align: center;
 }
 
 .cards {
+    width: 300px;
+    height: 460px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -23,12 +25,24 @@
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.08);
 }
 
-.img-films {
+.img-books {
     width: 250px;
     height: 350px;
 }
 
-.title-films {
-    font-size: 18px;
+.title-books {
+    font-size: 16px;
     font-weight: 500;
+}
+
+
+@media(max-width: 680px) {
+    .cards-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
 }
