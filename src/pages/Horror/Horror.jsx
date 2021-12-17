@@ -4,6 +4,8 @@ import { Footer } from "../../components/Footer/Footer";
 import { Input } from "../../components/Input/Input";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import Aos from "aos";
+import "aos/dist/aos.css"
 import "./HorrorStyles.css";
 
 export const Horror = () => {
@@ -11,6 +13,10 @@ export const Horror = () => {
     const [horror, setHorror] = useState([])
     const [busca, setBusca] = useState('')  
     const [filterBooks, setFilterBooks]  = useState([])
+
+    useEffect(()=> {
+        Aos.init({duration: 1000})
+    }, [])
 
     useEffect(() => {
         const fetchData = async () => {
@@ -40,7 +46,7 @@ export const Horror = () => {
 
             <div className="cards-container" >
             {filterBooks.map(item =>
-                <div className="cards">
+                <div className="cards" data-aos="fade-down">
                     <img src={item.photo} alt={item.name} className="img-horror"/>
                     <p className="subtitle-horror" key={item.id}>{item.name}</p>
                 </div>
