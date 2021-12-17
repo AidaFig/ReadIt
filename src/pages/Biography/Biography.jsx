@@ -16,7 +16,7 @@ export const Biography = () => {
 
     useEffect(() => {
         Aos.init({duration: 1000})
-    })
+    }, [])
 
     useEffect(() => {
         setFilterBooks(
@@ -34,7 +34,7 @@ export const Biography = () => {
         }
 
         fetchData()
-    })
+    }, [])
 
     return (
         <>

@@ -26,7 +26,7 @@ export const Horror = () => {
             setHorror(data)
         }
         fetchData()
-    })
+    }, [])
 
     useEffect(() =>{
         setFilterBooks(
