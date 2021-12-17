@@ -24,7 +24,7 @@ const genders = [
         id: 3,
         icon: "../assets/icons/witch.png",
         title: "Terror",
-        path: ""
+        path: "/terror"
     }, 
     {
         id: 4,
