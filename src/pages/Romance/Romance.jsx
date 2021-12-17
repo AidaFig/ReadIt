@@ -42,6 +42,7 @@ useEffect(() =>{
         <Input onChange={e => {setBusca(e.target.value)}} />
 
         <h1 className="books-gender">Romance</h1>
+        
         <Arrow />
         <div className="cards-container" >
             {filterBooks.map(item =>
