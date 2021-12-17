@@ -34,18 +34,14 @@
 .title-books {
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
-.icons-actions_container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.title-books:hover {
+    color: #3B719F;
 }
 
-.icons-actions {
-    width: 25px;
-    height: 25px;
-}
+
 
 
 @media(max-width: 680px) {

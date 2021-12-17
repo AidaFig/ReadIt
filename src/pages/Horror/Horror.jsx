@@ -2,6 +2,7 @@ import { Nav } from "../../components/Nav/Nav";
 import { Arrow } from "../../components/Arrow/Arrow";
 import { Footer } from "../../components/Footer/Footer";
 import { Input } from "../../components/Input/Input";
+import { Actions } from "../../components/Actions/Actions";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Aos from "aos";
@@ -46,9 +47,10 @@ export const Horror = () => {
 
             <div className="cards-container" >
             {filterBooks.map(item =>
-                <div className="cards" data-aos="fade-down">
+                <div className="cards-horror" data-aos="fade-down" key={item.id}>
                     <img src={item.photo} alt={item.name} className="img-horror"/>
-                    <p className="subtitle-horror" key={item.id}>{item.name}</p>
+                    <p className="subtitle-horror" >{item.name}</p>
+                    <Actions />
                 </div>
             )}
             </div>
