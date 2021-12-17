@@ -1,0 +1,11 @@
+.icons-actions_container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons-actions {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
