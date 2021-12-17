@@ -50,7 +50,7 @@ useEffect(() =>{
             {filterBooks.map(item =>
             <div className="cards" key={item.id} data-aos="fade-down">
                 <img src={item.photo} alt={item.name} className="img-books"/>
-                <p className="title-books" >{item.name}</p>
+                <a href={item.url} className="title-books" >{item.name}</a>
                 <Actions />
             </div>
             )}
