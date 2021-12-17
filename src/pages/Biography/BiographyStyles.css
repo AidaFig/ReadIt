@@ -13,9 +13,9 @@
     text-align: center;
 }
 
-.cards {
+.cards-biography {
     width: 300px;
-    height: 460px;
+    height: 480px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -33,6 +33,11 @@
 .subtitle-biography {
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.subtitle-biography:hover {
+    color: #3B719F;
 }
 
 

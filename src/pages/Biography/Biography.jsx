@@ -7,6 +7,7 @@ import "./BiographyStyles.css"
 import { Footer } from "../../components/Footer/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Actions } from "../../components/Actions/Actions";
 
 export const Biography = () => {
 
@@ -40,14 +41,15 @@ export const Biography = () => {
         <>
             <Nav />
             <Input onChange={e => {setBuscar(e.target.value)}}/>
-            <h1 className="title-biography">Biography</h1>
+            <h1 className="title-biography">Biografia</h1>
             <Arrow />
 
             <div className="cards-container">
                 {filterBooks.map(item =>
-                    <div className="cards" key={item.id} data-aos="fade-down">
+                    <div className="cards-biography" key={item.id} data-aos="fade-down">
                         <img className="img-biography" src={item.photo} alt={item.name} />
                         <p className="subtitle-biography">{item.name}</p>
+                        <Actions />
                     </div>
                     )}
             </div>
